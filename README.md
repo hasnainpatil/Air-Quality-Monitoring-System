@@ -1,6 +1,7 @@
 # 🌬️ Air Quality Monitoring & Predictive System
 
-![Air Quality Dashboard Banner](air_quality_dashboard_banner_1777471569907.png)
+![Air Quality Dashboard Banner](<img width="1901" height="1001" alt="air quality tester" src="https://github.com/user-attachments/assets/ff2dc8a8-e831-48ec-8926-fbbf016f41bd" />
+)
 
 ## 📌 Overview
 This project is an advanced, full-stack IoT solution for real-time monitoring and predictive analysis of environmental air quality. It bridges the gap between hardware sensor data and user-friendly visualization, incorporating machine learning to provide early warnings for air quality deterioration.
