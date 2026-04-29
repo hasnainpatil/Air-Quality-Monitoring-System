@@ -1,6 +1,6 @@
 # 🌬️ Air Quality Monitoring & Predictive System
 
-![Air Quality Dashboard Banner](<img width="1901" height="1001" alt="air quality tester" src="https://github.com/user-attachments/assets/ff2dc8a8-e831-48ec-8926-fbbf016f41bd" />
+![Air Quality Dashboard Banner]([<img width="1901" height="1001" alt="air quality tester" src="https://github.com/user-attachments/assets/ff2dc8a8-e831-48ec-8926-fbbf016f41bd" />](https://github.com/hasnainpatil/Air-Quality-Monitoring-System/blob/5685cc3725af9cca14e1fea196b333d769e4ffbb/air%20quality%20tester.gif)
 )
 
 ## 📌 Overview
