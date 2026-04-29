@@ -1,0 +1,7 @@
+Start the backend first - python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
+Start the frontend - npm run dev
+
+Stop the backend - Ctrl + C
+Ensure the backend processes are stopped properly - # Kill the backend (Python), frontend (Node), and the simulation
+taskkill /F /IM python.exe /T
+taskkill /F /IM node.exe /T

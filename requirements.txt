@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+paho-mqtt
+sqlalchemy
+pydantic
+websockets
+passlib[bcrypt]
+python-jose[cryptography]
+python-multipart
+AWSIoTPythonSDK
+pandas
+tensorflow
+numpy
+scikit-learn
+requests
