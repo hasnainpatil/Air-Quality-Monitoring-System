@@ -100,20 +100,20 @@ def start_mqtt_thread():
     """
     from AWSIoTPythonSDK.MQTTLib import AWSIoTMQTTClient
 
-    ENDPOINT = "a3dq95trxm3khj-ats.iot.us-east-1.amazonaws.com"
+    ENDPOINT = "<YOUR AWS IOT DOMAIN NAME"
     TOPIC = "airquality/data"
     CLIENT_ID = "fastapi-subscriber-" + str(int(time.time()))
 
     # Resolve certificate paths relative to the project root
     path_to_cert = os.path.join(
         PROJECT_ROOT,
-        "c7d6ee5bc94719ead634503e8bbf99e783b3854d153719b0bb4edccae0e24e9e-certificate.pem.crt",
+        "<ROOT PATH>",
     )
     path_to_key = os.path.join(
         PROJECT_ROOT,
-        "c7d6ee5bc94719ead634503e8bbf99e783b3854d153719b0bb4edccae0e24e9e-private.pem.key",
+        "<ROOT PATH>",
     )
-    path_to_root = os.path.join(PROJECT_ROOT, "AmazonRootCA1.pem")
+    path_to_root = os.path.join(PROJECT_ROOT, "<AWS ROOT PATH>")
 
     def on_message(client, userdata, msg):
         """Called by the AWS IoT SDK on the MQTT thread — NOT the asyncio loop."""
