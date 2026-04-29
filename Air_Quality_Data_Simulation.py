@@ -67,13 +67,13 @@ LATITUDE = 18.490614
 LONGITUDE = 74.022078
 
 # AWS IoT Core Endpoint 
-ENDPOINT = "a3dq95trxm3khj-ats.iot.us-east-1.amazonaws.com"
+ENDPOINT = "<YOUR AWS IOT DOMAIN NAME>"
 CLIENT_ID = "air-quality-publisher"
 TOPIC = "airquality/data"
 
-PATH_TO_CERT = "c7d6ee5bc94719ead634503e8bbf99e783b3854d153719b0bb4edccae0e24e9e-certificate.pem.crt"
-PATH_TO_KEY  = "c7d6ee5bc94719ead634503e8bbf99e783b3854d153719b0bb4edccae0e24e9e-private.pem.key"
-PATH_TO_ROOT = "AmazonRootCA1.pem"
+PATH_TO_CERT = "<YOUR CERT PATH>"
+PATH_TO_KEY  = "<YOUR KEY PATH>"
+PATH_TO_ROOT = "<YOUR ROOT PATH>"
 
 # ================================================================
 # Initialize MQTT Client
